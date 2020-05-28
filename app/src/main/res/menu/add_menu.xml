@@ -1,0 +1,8 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/addImgmenu"
+        android:icon="@android:drawable/ic_menu_camera"
+        android:title="Add Image"
+        app:actionViewClass="androidx.appcompat.widget.SearchView"
+        app:showAsAction="never"/>
+</menu>
